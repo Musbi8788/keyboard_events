@@ -23,11 +23,11 @@ class KeyboardEvents():
                     sys.exit()
 
                 elif event.type == pygame.KEYDOWN:
-                    if event.key:
+                        print(event.key)
                         print(event.unicode)
                 self._update_screen()
 
-                
+
     def _update_screen(self):
         """update screen
         """
